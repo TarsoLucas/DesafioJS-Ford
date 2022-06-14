@@ -65,11 +65,4 @@ function redirect(tag) {
              break;
         }
     }
-    //ahref.href = "aa";
-
-    //console.log(link)
-    //ahref.href = link;
-    //console.log(link)
-    //link.href = source;
-    //console.log(source)
 }
