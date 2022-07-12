@@ -2,7 +2,7 @@
 let carouselArr = [];
 
 //Control variable
-let indexNextImg = 0
+let indexNextImg = 0;
 
 //class Carousel
 class Carousel {
@@ -50,14 +50,9 @@ class Carousel {
 function redirect(tag) {
     let aimg = document.getElementsByClassName("mediaLink");
     tagTitle = tag.title.toLowerCase();
-    console.log(tagTitle)
 
     for (let i = 0; i < aimg.length; i++) {
-        console.log(i)
-
         if (aimg[i].alt.toString().includes(tagTitle)) {
-             console.log("clicando "+aimg[i].alt);
-
              let ahref = document.getElementsByClassName("mediaIcon");
 
              ahref[i].href = aimg[i].alt;

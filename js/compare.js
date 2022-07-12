@@ -80,7 +80,6 @@ function HideCompare(){
 }
 
 function UpdateCompareTable(index) {
-    console.log(carArr[index].volumeCacamba);
 document.getElementById('compare_image_'+ index).innerHTML = "<img src='" + carArr[0].imagem + "' width='180'>";
 document.getElementById('compare_modelo_'+ index).innerHTML = carArr[index].nome;
 document.getElementById('compare_alturacacamba_'+ index).innerHTML = carArr[index].alturaCacamba;
